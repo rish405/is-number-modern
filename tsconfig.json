@@ -4,6 +4,7 @@
     "module": "ESNext",
     "lib": ["ES2020"],
     "moduleResolution": "Bundler",
+    "types": ["vitest"],
     "strict": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -14,4 +15,3 @@
   "include": ["src", "tests"],
   "exclude": ["dist", "node_modules"]
 }
-
