@@ -1,0 +1,52 @@
+{
+  "name": "is-number-modern",
+  "version": "0.1.0",
+  "description": "Tiny, zero-dependency utility to check if a value is a number or numeric string.",
+  "keywords": [
+    "number",
+    "is-number",
+    "numeric",
+    "validation",
+    "typescript",
+    "esm",
+    "cjs",
+    "tree-shaking"
+  ],
+  "homepage": "https://github.com/placeholder/is-number-modern",
+  "bugs": {
+    "url": "https://github.com/placeholder/is-number-modern/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/placeholder/is-number-modern.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --minify --clean",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.0.5"
+  }
+}
+
