@@ -12,13 +12,13 @@
     "cjs",
     "tree-shaking"
   ],
-  "homepage": "https://github.com/placeholder/is-number-modern",
+  "homepage": "https://github.com/rish405/is-number-modern",
   "bugs": {
-    "url": "https://github.com/placeholder/is-number-modern/issues"
+    "url": "https://github.com/rish405/is-number-modern/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/placeholder/is-number-modern.git"
+    "url": "git+https://github.com/rish405/is-number-modern.git"
   },
   "license": "MIT",
   "type": "module",
@@ -49,4 +49,3 @@
     "vitest": "^2.0.5"
   }
 }
-
